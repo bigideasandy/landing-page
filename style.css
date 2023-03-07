@@ -29,9 +29,9 @@ body {
 }
 
 .logo {
-    font-size: 24px;
-    color: #F9FAF8;
+    max-height: 50px;
     margin-right: auto;
+    align-self: center;
 }
 
 a {
