@@ -24,10 +24,13 @@ body {
     align-items: center;
     padding-left: 200px;
     padding-right: 200px;
+    min-width: 0;
 
 }
 
 .logo {
+    font-size: 24px;
+    color: #F9FAF8;
     margin-right: auto;
 }
 
@@ -36,9 +39,10 @@ a {
     color: #e5e7eb;
     font-size: 18px;}
 
-img {
-    height: 250px;
-    flex: 1;
+.hero-pic {
+    max-height: 250px;
+    min-width: 75%;
+    margin-left: 10px;
 }
 
 ul {
@@ -57,8 +61,8 @@ ul {
     padding-right: 200px;
     height: 400px;
     align-items: center;
-
 }
+
 
 .module {
     color: #F9FAF8;
@@ -66,6 +70,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-shrink: 5;
 }
 
 button {
@@ -186,8 +191,4 @@ p {
     justify-content: center;
     align-items: center;
 
-}
-
-.panel-2 {
-    padding-bottom: 150px;
 }
