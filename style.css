@@ -18,13 +18,15 @@ body {
 .header {
     background-color: #1F2937;
     color: white;
-    height: 75px;
+    flex-basis: 75px;
     text-decoration: none;
     display: flex;
     align-items: center;
     padding-left: 200px;
     padding-right: 200px;
     min-width: 0;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
@@ -44,7 +46,9 @@ a {
     min-width: 75%;
     margin-left: 10px;
     border-radius: 10px;
+    margin-top: 10px;
 }
+
 
 ul {
     list-style: none;
@@ -60,8 +64,8 @@ ul {
     justify-content: space-between;
     padding-left: 200px;
     padding-right: 200px;
-    height: 400px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -113,6 +117,7 @@ p {
     padding-left: 200px;
     padding-right: 200px;
     flex-basis: 300px;
+    justify-content: center;
 }
 
 .cards {
