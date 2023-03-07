@@ -107,8 +107,8 @@ p {
 .panel-2,
 .panel-3,
 .panel-4 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     padding-left: 200px;
     padding-right: 200px;
     flex-basis: 300px;
